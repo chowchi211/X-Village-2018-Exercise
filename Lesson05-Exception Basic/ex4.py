@@ -25,7 +25,7 @@ try:
     p1 = input("Please enter the first person: ")
     p2 = input("Please enter the second person: ")
     check(p1, p2)
-    print("{} and {} are in love with each other!".format(p1, p2))
+    print("{} and {} are in love with each other!".format(pormat(p1, p2))
     
 except (RelationException, Exception) as e:
     print(e)
